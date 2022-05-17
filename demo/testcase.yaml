@@ -1,0 +1,54 @@
+loginpage:
+#  - title: 登录失败
+#    des: 登录失败的测试用例
+#    cases:
+#      - name: 打开登录页面
+#        method: goto
+#        url: http://dsdprotest.5ibazhuayu.com.cn/hui-uc/#/login
+#
+#      - name: 输入用户名
+#        method: fill
+#        selector: //*[@id="app"]/div[1]/div[1]/div/div/div[3]/form[1]/div[1]/div[2]/div[1]/input
+#        value: "18800000001"
+#
+#      - name: 输入密码
+#        method: fill
+#        selector: //*[@id="app"]/div[1]/div[1]/div/div/div[3]/form[1]/div[2]/div[2]/div[1]/input
+#        value: "123456Bb"
+#
+##      - name: 输入验证码
+##        method: fill
+##        selector: //*[@id="app"]/div[1]/div[1]/div/div/div[3]/form[1]/div[2]/div[2]/div[1]/input
+##        value: "123456Aa"
+#
+#      - name: 点击登录按钮
+#        method: click
+#        selector: //*[@id="app"]/div[1]/div[1]/div/div/div[3]/div/button
+
+  - title: 登录成功
+    des: 登录成功的测试用例
+    cases:
+      - name: 打开登录页面
+        method: goto
+        url: http://dsdprotest.5ibazhuayu.com.cn/hui-uc/#/login
+
+      - name: 输入用户名
+        method: fill
+        selector: //*[@id="app"]/div[1]/div[1]/div/div/div[3]/form[1]/div[1]/div[2]/div[1]/input
+        value: "18800000001"
+
+      - name: 输入密码
+        method: fill
+        selector: //*[@id="app"]/div[1]/div[1]/div/div/div[3]/form[1]/div[2]/div[2]/div[1]/input
+        value: "123456Aa"
+
+#      - name: 输入验证码
+#        method: fill
+#        selector: //*[@id="app"]/div[1]/div[1]/div/div/div[3]/form[1]/div[2]/div[2]/div[1]/input
+#        value: "123456Aa"
+
+      - name: 点击登录按钮
+        method: click
+        selector: //*[@id="app"]/div[1]/div[1]/div/div/div[3]/div/button
+
+searchpage:
